@@ -16,7 +16,15 @@ Clone into a skill directory supported by your host. For hosts that discover `~/
 git clone https://github.com/j2h4u/skill-implicit-fsm.git ~/.agents/skills/implicit-fsm
 ```
 
-The destination must not already exist. If it is already installed, update that installation instead. The host controls skill discovery and whether a reload or new session is needed. The skill has no runtime package dependency of its own; project-specific analysis and tests may require tools.
+The destination must not already exist. If it is already installed, update that installation instead. The skill has no runtime package dependency of its own; project-specific analysis and tests may require tools.
+
+## Update
+
+```bash
+git -C ~/.agents/skills/implicit-fsm pull --ff-only
+```
+
+The host controls skill discovery and whether a reload or new session is needed.
 
 ## Use
 

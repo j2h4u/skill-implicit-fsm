@@ -1,10 +1,6 @@
 # Implicit FSM
 
-An agent skill for discovering implicit finite-state machines (FSMs), refining their behavioral contracts, and implementing explicit machines where justified. It treats existing code as evidence rather than the final specification.
-
-The workflow maps states and transitions, extracts and challenges properties, then independently researches and red-teams them. A separate whole-contract review looks for interactions and missing requirements. For an authorized conversion, the skill requires a formally checkable specification and generated stateful property-based and model-based tests that are actually run against the implementation. It records which formal obligations were checked; a checkable specification is not a proof of the implementation.
-
-The skill supports discovery and audit without changing target code, as well as implementation when requested. Set a discovery boundary, property limit, and resource budget before review. The full process requires an agent with suitable code and test tools and isolated delegation; if independent review is unavailable, the agent must report the limitation.
+An agent skill for discovering implicit finite-state machines (FSMs), auditing and refining their behavioral contracts, and implementing explicit machines where justified. It treats existing code as evidence rather than the final specification.
 
 **Status:** experimental. Comparative benefit over working without this skill has not been established.
 
@@ -28,13 +24,11 @@ The host controls skill discovery and whether a reload or new session is needed.
 
 ## Use
 
-For a complete, bounded workflow, adapt this request:
+> Use $implicit-fsm to audit this repository.
 
-> Use $implicit-fsm on the order lifecycle in this repository. Discover its implicit state machines, refine their contracts and implement justified explicit machines. Limit discovery to the order workflow, review at most 10 initial properties and use a budget of 24 agent tasks. Save the audit outside the source tree, run the required generated tests and report checked formal obligations and remaining gaps.
+To request implementation as well:
 
-For an audit without implementation:
-
-> Use $implicit-fsm to audit the order lifecycle in this repository. Limit discovery to the order workflow, review at most 5 initial properties and use a budget of 12 agent tasks. Save the audit outside the source tree and report findings and proposed actions; do not modify target code.
+> Use $implicit-fsm to audit this repository and implement justified explicit state machines.
 
 See [SKILL.md](SKILL.md) for the workflow and requirements. Evaluation or improvements to the skill itself are separate work performed when requested; see [EVALUATION.md](EVALUATION.md).
 

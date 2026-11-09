@@ -23,11 +23,15 @@ If the user requested evaluation only, return the report and proposed edits. If 
 
 Real-project feedback is useful on its own. For a separate method validation, use isolated known-defect and correct controls with expected outcomes hidden from auditing agents: a cross-property deadlock; a constraint contrary to a confirmed product goal; late discovery under a tight budget; a conditional property whose trigger never occurred; a model that passes while its runtime adapter or effects are wrong; and paired cases of a valid unconditional transition to an intentional terminal state and a reachable direct-call bypass of a required prerequisite. Assess detection and unsupported objections; repeat on another project before generalizing.
 
+Assess scope fidelity by comparing the requested boundary with what was actually inspected; distinguish discovery screening from substantive audit depth. An agent-selected sample is not a complete repository audit.
+
+For controlled coverage-regression comparisons, freeze a prior adjudicated registry and withhold it from discovery and any reviewer until their outputs are sealed. Compare family identity sets separately from yield; record false positives, missed or unreviewed families, independently rediscovered versus reference-assisted recoveries, and evidence-backed reclassifications. Unexplained missing prior families fail the no-loss criterion; the reference is a reviewed minimum, not an exhaustive gold standard.
+
 For comparative efficacy claims, run a fresh-context no-skill baseline matched on task, target snapshot, model and effort, available information, authorization and comparable budget. Independently assess correctness, useful FSM, code and test outcomes, unsupported constraints and costs. Without that baseline, state that comparative benefit was not measured. One case does not establish universal effectiveness.
 
 ## Open before execution
 
-Target projects and workflows; numeric budget and candidate limit; available isolated agents; appropriate safe test commands; output location; who accepts proposed contract changes. Languages and test libraries remain project-specific. Markdown is the initial storage choice, not a required infrastructure standard.
+Target projects and workflows; user-specified resource constraints and property-review limits, if any; available isolated agents; appropriate safe test commands; output location; who accepts proposed contract changes. Languages and test libraries remain project-specific. Markdown is the initial storage choice, not a required infrastructure standard.
 
 Example request, after filling the scope and budget:
 
